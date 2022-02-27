@@ -64,7 +64,7 @@ def metrics():
                             attrib["currentValue"] = 0
                         else:
                             attrib["currentValue"] = attrib["currentValue"]
-                     if attrib["name"] == "motion":
+                    if attrib["name"] == "motion":
                         if attrib["currentValue"] == "active":
                             attrib["currentValue"] = 1
                         elif attrib["currentValue"] == "inactive":
